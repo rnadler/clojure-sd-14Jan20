@@ -1,0 +1,25 @@
+* Clojure SD Meetup 14-Jan-2020
+- [[https://www.meetup.com/San-Diego-Clojure-Meetup/][San Diego Clojurians (San Diego, CA)]]
+* Design and Development of a ClojureScript/Reagent Electron App
+- Bob Nadler
+  - [[mailto:robert.nadler@gmail.com][robert.nadler@gmail.com]]
+  - [[https://twitter.com/bobnadler][@bobnadler]]
+- Application purpose and demo
+- Project origin: [[https://github.com/Gonzih/cljs-electron][Clojurified Electron]]
+  - [[http://electron.atom.io/][Electron]] ([[https://github.com/electron/electron-packager][electron-packager]], [[https://github.com/electron-userland/electron-installer-debian][electron-installer-debian]])
+  - [[https://getbootstrap.com/docs/4.1/getting-started/introduction/][Bootstrap 4]]
+- Emacs configuration (lsp and [[https://github.com/snoe/clojure-lsp][clojure-lsp]] language server)
+- Project structure
+  - Project.clj and package.json
+  - Electron/App configuration
+  - Testing
+    - Electron test library: [[https://electronjs.org/spectron][Spectron]]
+    - Integration tests: [[https://mochajs.org/][Mocha]], [[https://www.chaijs.com/][Chai]]
+    - Unit tests: [[https://github.com/bensu/doo][doo]]
+- [[https://github.com/bhauman/lein-figwheel][Figwheel]] functionality and the REPL 
+- Electron Chromium tools
+- [[https://reagent-project.github.io/][Reagent]]: React ClojureScript wrapper ([[https://github.com/weavejester/hiccup][hiccup]] syntax)
+- [[https://github.com/clj-commons/secretary][secretary]]: A client-side router for ClojureScript
+- [[https://github.com/reagent-project/reagent-forms][reagent-forms]]: Reagent data binding
+- [[https://github.com/Frozenlock/reagent-modals][reagent-modals]]: Bootstrap modal components for Reagent.
+- [[https://code.thheller.com/blog/shadow-cljs/2019/10/12/clojurescript-macros.html][ClojureScript Macros]]: See [[https://github.com/rnadler/clojure-sd-14Jan20/blob/master/project.cljc][project.cljc]]
